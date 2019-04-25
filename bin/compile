@@ -25,4 +25,4 @@ rm -rf $FILE $FILE.tar.bz2
 echo "exporting PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/phantomjs.sh"
 mkdir -p $(dirname $PROFILE_PATH)
-echo 'export PATH="$PATH:${HOME}/vendor/phantomjs"' >> $PROFILE_PATH
+echo 'export PATH="$PATH:${HOME}/vendor/phantomjs/bin"' >> $PROFILE_PATH
